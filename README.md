@@ -5,3 +5,7 @@ Socket programming is a way of connecting two nodes on a network to communicate 
 Socket programming alone won’t help us to achieve our goal because here in our application we want both send and receiver program to work in parallel with each other so that we can read the message sent by the user and also be able to send the message at the same time. To achieve this kind of parallelism we will be using multithreading.
 In computer architecture, multithreading is the ability of a (CPU) to provide multiple threads of execution concurrently, supported by the operating system.
 
+-- As the no. of clients increases it takes more and more time.
+-- we need to know the IP and the port number to communicate.
+-- udp doesn't assure that the msg is recevied or not.
+
